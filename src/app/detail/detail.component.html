@@ -1,0 +1,9 @@
+<p>First Name: {{user?.FirstName ||'-'}}</p> <!--รูปแบบการเขียนแบบย่อ-->
+<p>Last Name: {{user?.LastName ||'-'}}</p>
+<p>Age: {{user?.Age || 0}}</p>
+<p>EMail: {{user ? user.EMail : '-'}}</p> <!--ถ้าuserมีค่า ให้ทำด้านหน้า? ถ้าuserไม่มีค่า ให้ทำด้านหลัง?-->
+
+<!--<p>First Name: {{user?.firstName ||'-'}}</p>
+<p>Last Name: {{user?.lastName || '-'}}</p>
+<p>Age : {{user?.age || 0}}</p>
+<p>e-mail: {{user ? user.email : '-'}}</p>-->

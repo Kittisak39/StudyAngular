@@ -19,4 +19,9 @@
 </ul>
 
 <router-outlet></router-outlet>-->
-<app-form></app-form>
+<div>
+  <app-form (change)="onChange($event)"></app-form>
+</div>
+<div>
+  <app-detail [user]="user"></app-detail>
+</div>
